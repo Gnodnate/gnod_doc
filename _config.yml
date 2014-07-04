@@ -2,8 +2,7 @@ markdown: redcarpet
 highlighter: null
 permalink: /:title
 
-url:
-baseurl:/gnod_doc
+baseurl: /gnod_doc
 
 redcarpet:
   extensions: [strikethrough, tables]
