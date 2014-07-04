@@ -2,9 +2,6 @@
 layout: post
 title: Build C Language Library for Android
 ---
-
-#Build C Language Library for Android
-
 ###0.Introduction
 Android apps are written in Java, Java have provide [JNI(Java Native Interface)](http://en.wikipedia.org/wiki/Java_Native_Interface) to call or be called by native applications and libraries written in other language such as C/C++ and assembly. Android provide NDK(Native Development Kit) to support native development in C/C++.
 
