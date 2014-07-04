@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: post
 title: Build C Language Library for Android
 ---
+
 #Build C Language Library for Android
 
 ###0.Introduction
@@ -20,7 +21,7 @@ Step 1: Create a project directory named "exampleProject", and a subdir named "j
 
 Step 2: Create a file named "Android.mk", contains is likely as follow:
 
-```shell
+```
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := PMX_MobilePrinter

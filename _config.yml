@@ -1,1 +1,13 @@
-baseurl: /gnod_doc
+markdown: redcarpet
+highlighter: null
+permalink: /:title
+
+url:
+baseurl:/gnod_doc
+
+redcarpet:
+  extensions: [strikethrough, tables]
+
+sass:
+  sass_dir: public/css
+  style: :compressed
