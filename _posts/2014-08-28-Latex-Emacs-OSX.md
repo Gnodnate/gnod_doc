@@ -30,7 +30,8 @@ To activate, add the following to your .emacs:
 将上面的两行添加到.emacs，这是用Emacs打开或创建.tex文件，则可以在菜单栏上看到LaTex菜单，有工具栏里也有LATEX特有的Run LaTex, Run Viewer和Run BibTex三个按钮。
 
 ###3.修改Emacs中Shell的环境变量PATH
-至此可以使用Emacs编辑Tex文件，但是还有问题，编译或是预览时会提示找不到命令。这里才发现Emacs里的Shell的PATH并没有包含/usr/texbin，这里正是我们LATEX命令的目录，所以需要添加/usr/texbin到PATH中。添加如下，这里顺便添加了brew安装目录/usr/local/bin
+至此可以使用Emacs编辑Tex文件，但是还有问题，编译或是预览时会提示找不到命令。这里才发现Emacs里的Shell的PATH并没有包含/usr/texbin，这里正是我们LATEX命令的目录，所以需要添加/usr/texbin到PATH中。添加如下，这里顺便添加了brew安装目录/usr/local/bin。
+
 ```
 ;; Set $PATH
 (setenv "PATH"
