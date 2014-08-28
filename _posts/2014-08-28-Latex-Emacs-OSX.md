@@ -12,6 +12,7 @@ Mac版的Tex可以网站[https://tug.org/mactex/](https://tug.org/mactex/)获得
 ###1.安装AUCTEX
 
 AUCTEX是一个提供给GNU Emacs和XEmacs使用来书写和格式化的TEX的插件，提供各种宏，包括AMS-TEX, LATEX, Texinfo, ConTEXT和docTEX[(英文)](http://www.gnu.org/software/auctex/)真的不是太好翻译Orz。这里可以用源码安装，也可以使用brew安装，偷懒仍然使用brew安装。
+
 ```
 brew install auctex
 ```
@@ -19,6 +20,7 @@ brew install auctex
 ###2.添加AUCTEX到Emacs配置文件中
 
 在用brew安装完AUCTEX，最后会友好的提示
+
 ```
 To activate, add the following to your .emacs:
   (add-to-list 'load-path "/usr/local/share/emacs/site-lisp")
