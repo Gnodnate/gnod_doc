@@ -15,7 +15,7 @@ title: Markdown in Emacs
 (add-to-list 'auto-mode-alist '("\\.md\\'". markdown-mode))
 ```
 
-2.经过上面的设置在Emacs中打开.md或是.markdown的文件，就可以有高亮显示并可以有多中快捷键使用，可参考markdown-mode的主页，也就是上面的下载页面。现在如果你使用C-c C-c p预览，或是C-c C-c m生成html，会没有markdown命令。这里使用brew安装pandoc，使用pandoc将Markdown转换成html。生成一个脚本文件，内容如下，将文件拷贝到/bin或/usr/bin目录下，并赋予可执行权限。至此就可以正常使用预览功能。
+2.经过上面的设置在Emacs中打开.md或是.markdown的文件，就可以有高亮显示并可以有多中快捷键使用，可参考markdown-mode的主页，也就是上面的下载页面。现在如果你使用C-c C-c p预览，或是C-c C-c m生成html，会没有markdown命令。这里使用[Homebrew]<http://brew.sh>安装pandoc，使用pandoc将Markdown转换成html。生成一个脚本文件，内容如下，将文件拷贝到/bin或/usr/bin目录下，并赋予可执行权限。至此就可以正常使用预览功能。
 
 ```
    /usr/local/bin/pandoc -f markdown -t html -s --mathjax --highlight-style pygments $1
