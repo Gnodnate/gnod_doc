@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stanfor CS193p note
+title: Stanford CS193p note
 ---
 ###Class 2
 What's the different between exclamation mark and question mark after the vars?
@@ -25,3 +25,33 @@ In Swift Array and Dictionary is struct, not class. When passed to argument, the
 Copied isn't copy actually, untill the value has be changed.
 
 ###Class 4
+lazy only var can lazy initialized, let can't.
+
+init method
+
+There is a free init for class and struct
+
+Designated init:
+
+ initialize all properties introduced by you class, before calling a superclass's init (different with Obj-C and C++) 
+ Convenience init:
+ Must call designated init
+
+AnyObject
+
+cast with <font color="yellow">as </font>
+
+check with <font color="yellow">is</font>
+
+```
+var b: AnyObject
+var a = b as UIButton 
+
+if b is UIButton {
+
+}
+```
+
+String.Index
+
+Unicode characters, can use Int to index a string
