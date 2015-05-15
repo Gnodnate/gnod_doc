@@ -42,14 +42,8 @@ Designated init:
 AnyObject
 
 cast with <font color="blue">as </font>
-<<<<<<< HEAD
 
 check with <font color="blue">is</font>
-
-=======
-
-check with <font color="blue">is</font>
->>>>>>> 4b447f07b3738e7c965ff27989856f4ac0b14756
 
 ```
 var b: AnyObject
