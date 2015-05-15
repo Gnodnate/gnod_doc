@@ -25,7 +25,9 @@ In Swift Array and Dictionary is struct, not class. When passed to argument, the
 Copied isn't copy actually, untill the value has be changed.
 
 ###Class 4
-lazy only var can lazy initialized, let can't.
+lazy
+
+only var can lazy initialized, let can't.
 
 init method
 
@@ -39,13 +41,14 @@ Designated init:
 
 AnyObject
 
-cast with <font color="yellow">as </font>
+cast with <font color="blue">as </font>
 
-check with <font color="yellow">is</font>
+check with <font color="blue">is</font>
+
 
 ```
 var b: AnyObject
-var a = b as UIButton 
+var a = b as? UIButton 
 
 if b is UIButton {
 
@@ -55,3 +58,15 @@ if b is UIButton {
 String.Index
 
 Unicode characters, can use Int to index a string
+
+###Class 5
+
+The two method to hierarchy in code
+
+```
+addSubview(aView: UIView) // sent to a aVies's superview
+removeFromSuperView()    // this is send to the view you want to remove
+```
+
+
+
