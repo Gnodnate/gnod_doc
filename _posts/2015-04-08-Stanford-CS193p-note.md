@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stanford CS193p note
+title: Note for Stanford CS193p
 ---
 ###Class 2
 What's the different between exclamation mark and question mark after the vars?
@@ -42,9 +42,14 @@ Designated init:
 AnyObject
 
 cast with <font color="blue">as </font>
+<<<<<<< HEAD
 
 check with <font color="blue">is</font>
 
+=======
+
+check with <font color="blue">is</font>
+>>>>>>> 4b447f07b3738e7c965ff27989856f4ac0b14756
 
 ```
 var b: AnyObject
