@@ -3,8 +3,6 @@ layout: post
 title: Get Spec from RPM file
 ---
 
-#Get spec from rpm file
-
 ##0. 前言
 常言道程序猿的成长道路就是Ctrl-C ＋ Ctrl-V (OS X用户自动切换到⌘-C + ⌘-V). Coding之路上少不了要借鉴前辈的code，这也是开源的好处之一。
 
