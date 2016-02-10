@@ -1,3 +1,8 @@
+---
+layout: post
+title: Get Spec from RPM file
+---
+
 #Get spec from rpm file
 
 ##0. 前言
