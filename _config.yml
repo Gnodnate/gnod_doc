@@ -1,5 +1,4 @@
-markdown: kramdom
-pygments: null
+markdown: kramdown
 permalink: /:title
 
 baseurl: /gnod_doc
