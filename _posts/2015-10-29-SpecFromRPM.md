@@ -36,7 +36,6 @@ title: Get Spec from RPM file
 
     rpmrebuild -s [outputSpecFileName].spec [softwareName]
 
-
 获取了下Google chrome浏览器的spec如下：
 
     Provides:      google-chrome = 46.0.2490.80
@@ -61,14 +60,12 @@ title: Get Spec from RPM file
     Requires:      libc.so.6(GLIBC_2.3.4)(64bit)
     Requires:      libc.so.6(GLIBC_2.3)(64bit)
 
-
 可以看到Requires后面跟的是库的名字，写法应该是这样：
-
 
     Requires: libQtGui.so.4
 
-
 ####参考链接:
+
 [openSUSE:Build Service cross distribution howto](https://en.opensuse.org/openSUSE:Build_Service_cross_distribution_howto)
 
 [extract the spec file from rpm package](http://stackoverflow.com/questions/5613954/extract-the-spec-file-from-rpm-package)
