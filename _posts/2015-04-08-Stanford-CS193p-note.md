@@ -2,7 +2,7 @@
 layout: post
 title: Note for Stanford CS193p
 ---
-###Class 2
+### Class 2
 What's the different between exclamation mark and question mark after the vars?
 they are same, but exclamation mark means the var will automatical unwrap.
 
@@ -10,7 +10,7 @@ they are same, but exclamation mark means the var will automatical unwrap.
 @IBOutlet weak var display: UILabel!
 @IBOutlet weak var display: UILabel?
 ```
-###Class 3
+### Class 3
 Same way to instance array and dictionary
 
 ```
@@ -24,7 +24,7 @@ var knowOps = [String:Op]()
 In Swift Array and Dictionary is struct, not class. When passed to argument, they are copied.
 Copied isn't copy actually, untill the value has be changed.
 
-###Class 4
+### Class 4
 lazy
 
 only var can lazy initialized, let can't.
@@ -58,7 +58,7 @@ String.Index
 
 Unicode characters, can use Int to index a string
 
-###Class 5
+### Class 5
 
 The two method to hierarchy in code
 
